@@ -87,55 +87,55 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(
               height: 20,
             ),
-            const Card(
+            Card(
               child: ListTile(
-                leading: SizedBox(
+                leading: const SizedBox(
                     height: double.infinity,
                     child: Icon(
                       Icons.apartment,
                       color: Colors.blue,
                     )),
-                title: Text("Baramati"),
-                subtitle: Text("Locality"),
+                title: Text(locality),
+                subtitle: const Text("Locality"),
               ),
             ),
-            const Card(
+            Card(
               child: ListTile(
-                leading: SizedBox(
+                leading: const SizedBox(
                     height: double.infinity,
                     child: Icon(
                       Icons.flag,
                       color: Colors.blue,
                     )),
-                title: Text("India"),
-                subtitle: Text("Country"),
+                title: Text(country),
+                subtitle: const Text("Country"),
               ),
             ),
-            const Card(
+            Card(
               child: ListTile(
-                leading: SizedBox(
+                leading: const SizedBox(
                     height: double.infinity,
                     child: Icon(
                       Icons.location_on,
                       color: Colors.blue,
                     )),
-                title: Text("MIDC"),
-                subtitle: Text("Administrative Area"),
+                title: Text(area),
+                subtitle: const Text("Administrative Area"),
               ),
             ),
             const SizedBox(
               height: 10,
             ),
-            const Card(
+            Card(
               child: ListTile(
-                leading: SizedBox(
+                leading: const SizedBox(
                     height: double.infinity,
                     child: Icon(
                       Icons.pin,
                       color: Colors.blue,
                     )),
-                title: Text("413100"),
-                subtitle: Text("Postal Code"),
+                title: Text(postalCode),
+                subtitle: const Text("Postal Code"),
               ),
             ),
             const SizedBox(
